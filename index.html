@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <title>to do list</title>
+</head>
+<body>
+    <h1>Daily Task's List</h1>
+    <div class="content">
+        <div class="content--add-item">
+            <input type="text" id="input-new-task" placeholder="Add New Task">
+            <button onclick="newTask()" id="btn-new-task" title="Add Task">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                  </svg>
+            </button>
+        </div>
+        <div class="content--body">
+            <ol id="to-do-list">
+                
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
